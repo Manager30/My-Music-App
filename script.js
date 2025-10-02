@@ -14,7 +14,7 @@ const getMusic = () => {
             <p>${i + 1}. ${user.id} ${user.artistName} <br> ${user.songTitle} <br> ${user.albumName} <br> ${user.releaseDate} </p>
             <img style="border-radius:100%; width:100px; height:100px;margin-right:20px" src="${user.songImage}" alt=""> 
             <audio id=${i} src=${user.songUrl}></audio>
-            <button  style="padding:8px; width:100px; border-radius: 6px; border: none;background: #17a74a; color:white; font-weight:bold"  onclick="playMusic(${i})">Play</button>
+            <button  style="padding:8px; width:100px; border-radius: 6px; border: none;background: blue; color:white; font-weight:bold"  onclick="playMusic(${i})">Play</button>
             <button  style="padding:8px; width:100px; border-radius: 6px; border: none;background: red; color:white; font-weight:bold"  onclick="pauseMusic(${i})">Pause</button>
             <hr>
             `
